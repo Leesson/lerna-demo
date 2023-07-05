@@ -1,0 +1,29 @@
+{
+  "name": "@lerna-demo/a",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "lixian.ethan <lixian.ethan@bytedance.com>",
+  "homepage": "https://github.com/Leesson/lerna-demo#readme",
+  "license": "ISC",
+  "main": "lib/a.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://bnpm.byted.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leesson/lerna-demo.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/a.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Leesson/lerna-demo/issues"
+  }
+}

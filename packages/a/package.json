@@ -25,5 +25,8 @@
   },
   "bugs": {
     "url": "https://github.com/Leesson/lerna-demo/issues"
+  },
+  "dependencies": {
+    "@lerna-demo/b": "1.0.0"
   }
 }
